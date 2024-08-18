@@ -1,0 +1,541 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+@media (max-width: 767px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .section {
+    font-size: 2rem;
+  }
+
+  .colm .clm2 {
+    flex-basis: 100%;
+  }
+}
+
+.hover-effect:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.colum {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clm {
+    flex: 2;
+    padding: 20px;
+}
+
+.clm2 {
+    flex: 1;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.clm2:first-child {
+    margin-left: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+/* Estilos para la tabla */
+table {
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+/* Agregado un comentario para separar secciones de estilos */
+
+.header{
+  background-color: #333;
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  align-items: center;
+  height: 85px;
+  width: 85%;
+  padding: 5px 10%;
+  flex-wrap: nowrap;
+}
+
+.header .logo{
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.header .logo a img{
+  height: 70px;
+  width: auto;
+  transition: all 0.3s;
+}
+
+.header .logo a img:hover{
+  transform: scale(1.2);
+}
+
+.nav-links{
+  list-style: none;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+.nav-links li{
+  display: inline-block;
+  padding: 0 20px;
+  
+}
+
+.nav-links li{
+  transform: scale(1.1);
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links a{
+  font-size: 20;
+  color: #333;
+  background-color: #fff;
+  text-decoration: none;
+  height: 85px;
+}
+
+.nav-links li a{
+  color: #fff;
+  background-color: #333;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.header .btn button{
+  margin-left: 20px;
+  font-weight: 700;
+  color: #333;
+  padding: 9px 25px;
+  background: #eceff1;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+  background-color: #AEEDEE;
+  color: #000;
+  transform: scale(1.1);
+}
+
+.custom-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.custom-button.primary {
+  background-color: #333;
+  color: #fff;
+}
+
+.custom-button.primary:hover {
+  background-color: #53DDE0;
+  color: #fff;
+  transform: scale(1.1);
+}
+/* Estilos para mejorar el contraste //porque si 5 */
+.text-contrast {
+    color: #fff;
+    background-color: #333;
+    padding: 0.5rem 1rem;
+  }
+/*porque si 4*/
+/* Estilos para dispositivos móviles //porque si 5*/
+
+/*fin porq si 5*/
+/*porque si 11*/
+/* Transición suave entre secciones */
+.section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+/*fin porque si 11*/
+nav button {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+
+nav button a {
+    color: white;
+    text-decoration: none;
+    font-style: italic; /* Texto en cursiva */
+    transition: color 0.3s ease;
+}
+
+nav button:hover, nav button a:hover {
+    background-color: #555; /* Cambio de color al pasar el ratón */
+}
+
+h2, h3, h4 {
+    color:#000;
+    font-family:cursive;
+    text-align: center;
+}
+
+p {
+    color:#000;
+    font-family:cursive;
+    margin-inline: 10px;
+    text-align: center;
+}
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 150px 0;
+    text-align: center;
+}
+
+nav button a {
+    color: white;
+    text-decoration: none;
+    font-style: italic; /* Texto en cursiva */
+    transition: color 0.3s ease;
+}
+
+nav button:hover,
+nav button a:hover {
+    background-color: #555; /* Cambio de color al pasar el ratón */
+}
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.sobre-nosotros,
+.nuestros-servicios,
+.servicios-de,
+.nuestro-portafolio,
+.contacto,
+.acerca-de,
+.nuestro-equipo,
+.testimonios,
+.testimonio,
+.blog {
+    padding: 12% 0;
+    text-align: center;
+}
+
+/* Estilos para la seccion de servicios */
+
+.container {
+    width: 90%;
+    max-width: 1200px; /* Ajusta el ancho máximo si necesitas */
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.h3{
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-md-4 {
+    width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.servicios-de {
+    padding: 60px 0;
+}
+
+.service {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.service i {
+    font-size: 3em;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+
+/* Fin de los estilos para seccion */
+
+/* Estilos de la sección testimonios */
+.testimonios {
+    padding: 60px 0;
+    background-color: #f8f8f8;
+    color: black;
+    padding-top: 10%;
+}
+
+.testimonial {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+/*Fin de la seccion testimonios*/
+/*estilos porque si*/
+  /* Estilos para las secciones */
+  .section {
+    padding: 4rem 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1rem;
+  }
+  
+  .col {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+/*fin estilos porque si*/
+/* Estilos de la sección blog */
+.blog {
+    padding: 60px 0;
+}
+
+.blog-post {
+    margin-bottom: 30px;
+}
+
+.blog-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/*Fin de la seccion de blog*/
+
+/* Estilos de la sección contacto */
+.contacto {
+    padding: 60px 0;
+    background-color: #f8f8f8;
+}
+
+.contact-info {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Fin de la sección contacto */
+
+.contacto form {
+    margin-top: 20px;
+}
+
+.contacto input,
+.contacto textarea {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 2px solid #ddD;
+    border-radius: 4px;
+}
+
+.contacto button {
+    padding: 15px 30px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contacto button:hover {
+    background-color: #449d44;
+}
+
+footer {
+    background-color: #2B2B2B;
+    color: white;
+    text-align: center;
+    padding: 0.1px 0;
+    margin-top: 30px;
+}
+/* Estilos para la integración de redes sociales */
+
+.social-links {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff; 
+    background-color: #333; 
+    padding: 10px;
+    border-radius: 55%;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #fff;
+    background-color: #555;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.social-links a:hover {
+    color: #53DDE0;
+}
+
+.testimonial-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.testimonial {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  transition: width 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.testimonial:hover {
+  width: 300px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.testimonial img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.testimonial-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.testimonial-text {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 40px;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.testimonial:hover .testimonial-text {
+  max-height: 100px;
+}
+
+/* Animación suave */
+.testimonial {
+  transform: scale(0.9);
+  transition: transform 0.3s ease-in-out;
+}
+
+.testimonial:hover {
+  transform: scale(1);
+}
